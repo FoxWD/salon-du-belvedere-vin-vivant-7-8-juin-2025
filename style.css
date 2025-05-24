@@ -195,6 +195,11 @@ body {
     line-height: 1.5;
 }
 
+.logo {
+   width: 24px;
+   height: 24px;
+}
+
 @media screen and (min-width: 768px) {
     #container {
         width: 70%;
