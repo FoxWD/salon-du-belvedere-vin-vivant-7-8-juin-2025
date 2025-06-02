@@ -158,6 +158,15 @@ body {
     margin: 0 auto;
 }
 
+#tampon {
+    position: absolute;
+    top: 65%;
+    left: 85%;
+    transform: translate(-50%, -50%) rotate(0.05turn);
+    z-index: 100;
+    width: 100px;
+}
+
 #affiche {
     width: 100%;
 }
@@ -196,8 +205,8 @@ body {
 }
 
 .logo {
-   width: 24px;
-   height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 @media screen and (min-width: 768px) {
