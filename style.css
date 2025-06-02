@@ -160,9 +160,9 @@ body {
 
 #tampon {
     position: absolute;
-    top: 65%;
-    left: 85%;
-    transform: translate(-50%, -50%) rotate(0.05turn);
+    top: 26%;
+    left: 70%;
+    transform: rotate(0.05turn);
     z-index: 100;
     width: 100px;
 }
@@ -214,14 +214,19 @@ body {
         width: 70%;
     }
 
+    #tampon {
+        width: 150px;
+    }
+
     #affiche {
         height: 50%;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    #container {
-        width: 50%;
+    #tampon {
+        top: 33%;
+        left: 65%;
     }
 
     #affiche {
@@ -232,6 +237,11 @@ body {
 @media screen and (min-width: 1200px) {
     #container {
         width: 40%;
+    }
+
+    #tampon {
+        top: 33%;
+        left: 60%;
     }
 
     #affiche {
