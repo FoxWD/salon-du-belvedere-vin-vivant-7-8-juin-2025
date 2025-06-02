@@ -160,7 +160,7 @@ body {
 
 #tampon {
     position: absolute;
-    top: 26%;
+    top: 30%;
     left: 70%;
     transform: rotate(0.05turn);
     z-index: 100;
